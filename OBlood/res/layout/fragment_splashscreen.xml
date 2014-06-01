@@ -1,45 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelatifLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:background="#293339">
-    
-    <ImageView
-        android:id="@+id/bloodanimasi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+   
+    <ImageView 
+        android:id="@+id/logoSplash"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/splashicon"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/blood1"
-        android:contentDescription="@string/deskripAnimasi"/>
-       
-    <TextView 
-        android:id="@+id/infoversi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="OBlood v.1.0"
-        android:textColor="#ffffff"
-        />
-
-    <ImageButton
-        android:id="@+id/btnLoginTwitter"
-        android:layout_width="230dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/infoversi"
-        android:layout_marginBottom="15dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/twitter1" />
-
-    <ImageButton
-        android:id="@+id/btnLoginFB"
-        android:layout_width="230dp"
-        android:layout_height="50dp"
-        android:layout_above="@+id/btnLoginTwitter"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/facebook1" />
+        android:layout_centerVertical="true"/>
 
 </RelativeLayout>
