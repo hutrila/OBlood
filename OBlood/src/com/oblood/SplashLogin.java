@@ -18,7 +18,7 @@ ImageButton LoginFB;
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.fragment_splashscreen);
+		setContentView(R.layout.fragment_login);
 		
 		ImageView bloodanimasi = (ImageView) findViewById(R.id.bloodanimasi);
 		bloodanimasi.setBackgroundResource(R.drawable.bloodloader);
